@@ -1,21 +1,23 @@
-creature = input("Name a Creature: ")
+name = input("Crush's Name: ")
+verb = input("Verb: ")
+room = input("Favorite room in the house: ")
+plural_noun = input("Plural noun: ")
+body_part1 = input("Body part: ")
+furniture = input("Piece of furniture: ")
 adj = input("Adjective: ")
-verb1 = input("Verd ending in ed: ")
-feeling = input("Name a Feeling: ")
-clothes = input("Favorite clothes: ")
-sparkly = input("Something Sparkly: ")
-superpower = input("Superpower you wish to have: ")
+adverb = input("Adverb: ")
+number = input("Number: ")
+time = input("Time: ")
+body_part2 = input("Plural body part: ")
+artist = input("Favorite music artist: ")
 food = input("Favorite food: ")
-game = input("Favorite game: ")
-animal = input("Name an Animal: ")
-song = input("Favorite song: ")
-room = input("Name a room in the house: ")
-fav_place = input("Favorite Place: ")
-secret_password = input("Tell us the Secret Password: ")
-madlib = f"Once there was a strange time where a {creature} took over the world \
-and made us all stay {adj} at home. So we {verb1} into our imagination and found \
-out the key to {feeling} was all about wearing {clothes} with {sparkly}. It \
-turned out that this was also the trick to turning on our {superpower} and getting to do everything you love at once. \
-Now, we can eat {food} while playing {game}, or search for {animal} while singing {song}. One time, \
-we even turned {room} into a {fav_place}. Don't belive us? Just say {secret_password} and we'll show you."
-print(madlib)
+shoe_brand = input("Brand of shoes, plural: ")
+madlibs =f"You were suddenly feeling frisky so you asked {name} if she wanted to {verb} \
+in the {room} with you. Normally, you use this room to store your vast collection of {plural_noun}, but this time you felt like switching things up. \
+\
+You just know she was ready to go when she propped up her {body_part1} up on the {furniture} and gave you her {adj} bedroom eyes. \
+\
+After {adverb} going at it for {number} minutes, you both climaxed at the exact same time: {time}. But you looked deep into each other's {body_part2} and knew \
+exactly what the other one wanted: one more round. You put on {artist}'s greatest hits, lit a few {food} - scented candles and \
+knocked {shoe_brand} for more hours."
+print(madlibs)
